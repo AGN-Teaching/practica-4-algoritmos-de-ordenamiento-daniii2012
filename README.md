@@ -135,6 +135,21 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 
 
 
+# ANÁLISIS DE DATOS
+<p align="justify">
+
+</p>
+
+<p align="justify">
+
+</p>
+
+<p align="justify">
+
+</p>
+
+
+
 # GRÁFICAS DE LOS RESULTADOS INDIVIDUAL
 
 ![grafica1](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/546a9814-d928-4bb7-a87e-0cad6605d83f)
@@ -158,4 +173,39 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 ![grafica10](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/e57405fa-8731-4348-8be9-4eeea37dcec1)
 
 
+
+# ANÁLISIS DE RESULTADOS
+<p align="justify">
+
+</p>
+
+<p align="justify">
+
+</p>
+
+<p align="justify">
+
+</p>
+
+
+
 # CONCLUSIONES
+<p align="justify">
+En conclusión, con el fin de salvaguardar la salud de la computadora y optimizar el tiempo de ejecución, se tomó la decisión de no utilizar todos los valores disponibles en los experimentos, centrándose en tamaños de arreglos manejables para el sistema. Este enfoque cauteloso se adoptó para evitar posibles impactos adversos en el rendimiento del sistema, reconociendo las limitaciones de ejecución en una misma computadora.
+</p>
+
+<p align="justify">
+Considerando los resultados previos y esta precaución, se optó por no continuar con los últimos dos arreglos más grandes, reconociendo su potencial influencia en los tiempos de ejecución y la capacidad del sistema. Esta elección refleja la importancia de equilibrar la obtención de resultados representativos con la responsabilidad hacia la integridad del hardware.
+</p>
+
+<p align="justify">
+En términos de eficiencia, tanto Quicksort como Merge Sort emergen como opciones preferibles para conjuntos de datos considerables. Quicksort destaca en arreglos pequeños y medianos, exhibiendo tiempos de ejecución más bajos en comparación con otros algoritmos evaluados. Por otro lado, Merge Sort demuestra ser más consistente en arreglos grandes, ofreciendo escalabilidad y manteniendo tiempos de ejecución predecibles a medida que aumenta el tamaño del conjunto de datos.
+</p>
+
+<p align="justify">
+En contraste, Bubble Sort, Insertion Sort y Selection Sort se revelan como opciones más adecuadas para conjuntos de datos pequeños, dada su limitada escalabilidad y tiempos de ejecución significativamente altos en situaciones de mayor complejidad. Estos algoritmos, a pesar de sus desventajas en términos de rendimiento, pueden ser preferibles en contextos donde la simplicidad y facilidad de implementación superan las limitaciones de rendimiento en comparación con algoritmos más complejos.
+</p>
+
+<p align="justify">
+En última instancia, la elección del algoritmo de ordenamiento dependerá de factores diversos, como el tamaño del conjunto de datos, la complejidad del algoritmo y la naturaleza de la aplicación. La comprensión de estos factores facilitará la toma de decisiones informadas para lograr un equilibrio óptimo entre rendimiento y simplicidad en la implementación.
+</p>
