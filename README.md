@@ -149,10 +149,13 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 
 ![grafica6](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/10ef77f9-740f-465b-b8ae-bbdedb463038)
 
+![grafica9](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/0b207f18-4cbf-4e3a-a5ee-46d8e6977f32)
+
 ![grafica7](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/2dd855c5-1657-4639-88cb-5cecbc5440d4)
 
 ![grafica8](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/3c11a925-1313-415e-9d1d-55ce5c16919e)
 
+![grafica10](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/e57405fa-8731-4348-8be9-4eeea37dcec1)
 
 
 # CONCLUSIONES
