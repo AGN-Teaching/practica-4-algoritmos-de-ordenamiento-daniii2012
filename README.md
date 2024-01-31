@@ -1,5 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ke8zCzPd)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=13517812)
+
 ![uamcua](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/5429fc6a-4532-4f92-9632-426cedf21a92)
 
 # UNIVERSIDAD AUTÓNOMA METROPOLITANA "UNIDAD CUAJIMALPA"
@@ -38,15 +39,15 @@ En la UEA "Estructura de Datos Lineales", esta sección se enfoca en el estudio 
 </p>
 
 <p align="justify">
-
+Los códigos se centran en la implementación y experimentación de algoritmos de ordenamiento. El programa principal en "orden.cpp" realiza experimentos con varios algoritmos, incluyendo Merge Sort, Quick Sort, Bubble Sort, Insertion Sort y Selection Sort. Los experimentos involucran la creación de arreglos aleatorios, la medición del tiempo de ejecución de cada algoritmo y el cálculo de promedios y desviaciones estándar.
 </p>
 
 <p align="justify">
-
+Además, se proporcionan implementaciones de los algoritmos en archivos separados ("ordenamiento_t.h" y "ordenamiento_rec_t.h"). Estos archivos contienen funciones para realizar el ordenamiento utilizando enfoques recursivos en el caso de Merge Sort y Quick Sort, y enfoques iterativos para los otros algoritmos.
 </p>
 
 <p align="justify">
-
+En resumen, los códigos permiten analizar y comparar el rendimiento de diferentes algoritmos de ordenamiento mediante experimentos controlados, proporcionando flexibilidad para seleccionar los algoritmos a evaluar y generando información sobre tiempos de ejecución promedio y desviaciones estándar.
 </p>
 
 
@@ -80,3 +81,61 @@ En el marco académico, se han estudiado y comparado diferentes algoritmos de or
 <p align="justify">
 Esta distinción en la complejidad temporal entre los algoritmos estudiados proporciona un contexto valioso para investigaciones adicionales sobre el rendimiento comparativo de estos enfoques en situaciones específicas, contribuyendo así a una comprensión más profunda de sus ventajas y limitaciones prácticas.
 </p>
+
+
+
+# ANÁLISIS DEL PROBLEMA
+
+<p align="justify">
+En términos generales, los algoritmos de ordenamiento se utilizan para organizar elementos en una secuencia de manera ascendente o descendente. Estos son fundamentales en ciencias de la computación y son aplicados en diversas áreas, como bases de datos, algoritmos de búsqueda, y en general, en cualquier escenario donde se necesite manejar datos de manera eficiente.
+</p>
+
+<p align="justify">
+El programa orden.cpp consta de dos archivos de encabezado (ordenamiento_t.h y ordenamiento_rec_t.h) que contienen las declaraciones de funciones relacionadas con los algoritmos de ordenamiento. El código principal se encuentra en orden.cpp, donde se implementan funciones para generar arreglos aleatorios, realizar experimentos con diferentes algoritmos de ordenamiento, calcular tiempos promedio y desviaciones estándar.
+</p>
+
+<p align="justify">
+La función principal main interactúa con el usuario para ingresar parámetros como el tamaño del arreglo, el número de repeticiones y la lista de algoritmos a evaluar. Luego, según las preferencias del usuario, se ejecutan experimentos que generan arreglos aleatorios, los ordenan con los algoritmos seleccionados y registran los tiempos de ejecución. Estos resultados se presentan al final del programa, incluyendo el tiempo promedio y la desviación estándar para cada algoritmo.
+</p>
+
+<p align="justify">
+Los algoritmos de ordenamiento implementados incluyen merge_sort, quicksort, bubblesort, insertion_sort y selection_sort. Cada uno de estos algoritmos tiene su propia función dedicada para realizar la ordenación en un arreglo dado.
+</p>
+
+<p align="justify">
+En resumen, el código orden.cpp proporciona una plataforma para comparar y evaluar diferentes algoritmos de ordenamiento mediante la medición de sus tiempos de ejecución y desviaciones estándar, lo que permite a los usuarios comprender y comparar la eficiencia relativa de estos algoritmos en distintos escenarios.
+</p>
+
+
+
+# IMPLEMENTACIÓN
+<ol>
+  <li>orden.cpp</li>
+  Programa principal que realiza experimentos con algoritmos de ordenamiento. Se incluyen los archivos de encabezado ordenamiento_t.h y ordenamiento_rec_t.h, que contienen las declaraciones de funciones relacionadas con los algoritmos de ordenamiento. Interactúa con el usuario para ingresar parámetros como el tamaño del arreglo, el número de repeticiones y la lista de algoritmos a evaluar. 
+  <li>ordenamiento_rec_t.h</li>
+  Este archivo contiene las declaraciones de las funciones relacionadas con algoritmos de ordenamiento recursivos, como merge_sort y quicksort. También incluye las funciones auxiliares necesarias para realizar experimentos con estos algoritmos.
+  <li>ordenamiento_t.h</li>
+  El archivo de encabezado ordenamiento_t.h contiene las declaraciones de las funciones relacionadas con algoritmos de ordenamiento no recursivos, como bubblesort, insertion_sort y selection_sort. Al igual que ordenamiento_rec_t.h, este archivo incluye funciones auxiliares para realizar experimentos con estos algoritmos.
+  <li>ordenamiento_rec_t.cpp</li>
+  Este archivo de implementación contiene las definiciones de las funciones relacionadas con algoritmos de ordenamiento recursivos. Aquí se encuentran las implementaciones de merge_sort y quicksort. Cabe destacar que estas funciones son utilizadas en el programa principal (orden.cpp) para ordenar los arreglos.
+  <li>ordenamiento_t.cpp</li>
+  Este archivo de implementación contiene las definiciones de las funciones relacionadas con algoritmos de ordenamiento no recursivos. Aquí se encuentran las implementaciones de bubblesort, insertion_sort y selection_sort. Al igual que ordenamiento_rec_t.cpp, estas funciones son utilizadas en el programa principal (orden.cpp) para ordenar los arreglos.
+</ol>
+
+
+
+# DESCRIPCIÓN DE LAS FUNCIONES DE ORDENAMIENTO
+<ol>
+  <li>merge_sort: Ordena un arreglo usando el algoritmo Merge Sort de manera recursiva.</li>
+  <li>quicksort: Ordena un arreglo usando el algoritmo Quicksort de manera recursiva.</li>
+  <li>bubblesort: Ordena un arreglo usando el algoritmo Bubblesort.</li>
+  <li>insertion_sort: Ordena un arreglo usando el algoritmo Insertion Sort.</li>
+  <li>selection_sort: Ordena un arreglo usando el algoritmo Selection Sort.</li>
+</ol>
+
+
+
+# RESUMEN Y GRÁFICAS DE LOS RESULTADOS 
+
+
+# CONCLUSIONES
