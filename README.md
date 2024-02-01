@@ -137,18 +137,20 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 
 # ANÁLISIS DE DATOS
 <p align="justify">
-
+En el análisis de los algoritmos de ordenamiento, se recurre al tiempo promedio y la desviación estándar como métricas fundamentales para evaluar la estabilidad y consistencia de cada algoritmo, con el objetivo de identificar posibles patrones o tendencias que puedan influir en su rendimiento.
 </p>
 
 <p align="justify">
-
+El tiempo promedio se obtiene mediante la ejecución repetida de cada algoritmo para diversos tamaños de arreglos. En cada repetición, se registra el tiempo de ejecución, y el tiempo promedio se calcula sumando todos los tiempos registrados y dividiendo el resultado por el número total de repeticiones. Esta medida central proporciona una visión general del rendimiento medio de cada algoritmo.
 </p>
 
 <p align="justify">
-
+La desviación estándar, por otro lado, se calcula en relación con el tiempo promedio. Después de obtener los tiempos, se calculan las diferencias cuadráticas entre cada tiempo individual y la media. Estos cuadrados de las diferencias se suman y se dividen por el número total de repeticiones. La raíz cuadrada del resultado proporciona la desviación estándar, indicando la dispersión de los tiempos de ejecución y ofreciendo información sobre la variabilidad de dichos tiempos respecto a la media.
 </p>
 
-
+<p align="justify">
+Es relevante destacar que, para asegurar estadísticas confiables, se realizaron 30 repeticiones para cada tamaño de arreglo (n). Este enfoque robusto contribuye a obtener resultados precisos y representativos en la evaluación comparativa de los diferentes algoritmos de ordenamiento.
+</p>
 
 # GRÁFICAS DE LOS RESULTADOS INDIVIDUAL
 
@@ -172,7 +174,28 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 
 ![grafica10](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/e57405fa-8731-4348-8be9-4eeea37dcec1)
 
+# GRÁFICAS GENERALES
 
+![total1](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/abec1db5-9b21-428a-93c3-22ee1cfc72a6)
+
+<p align="justify">
+En relación a los resultados marcados con 'X', es evidente que se dejaron de realizar mediciones para los tamaños de arreglos correspondientes. Esta omisión se debió a la demora significativa en la ejecución de los algoritmos para conjuntos de datos más extensos, lo que podría haber impactado negativamente en el tiempo total del análisis y la salud del sistema.
+</p>
+
+<p align="justify">
+Los resultados obtenidos revelan que tanto Quicksort como Merge sort destacan por su consistente rendimiento eficiente en una variedad de tamaños de conjuntos de datos, cumpliendo de manera notoria con la complejidad teórica esperada de O(n log n). Por el contrario, Insertion sort y Selection sort demuestran ser eficaces en situaciones con conjuntos de datos pequeños, pero su eficiencia disminuye rápidamente al enfrentarse a tamaños más considerables, alineándose con la teoría O(n^2). Bubble sort, en cambio, exhibe el rendimiento más limitado, especialmente en conjuntos de datos generales. En conjuntos pequeños, Quicksort muestra tiempos de ejecución más rápidos que Merge sort, manteniendo esta diferencia en conjuntos medianos, donde Quicksort sigue siendo el más veloz. Sin embargo, para conjuntos de datos grandes, la escalabilidad de Merge sort se destaca, revelando un rendimiento más uniforme a medida que aumenta el tamaño del conjunto.
+</p>
+
+![total2](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/5db92fdf-2f72-4b68-8445-2b53889f0e98)
+
+<p align="justify">
+En relación a los resultados marcados con 'X', es evidente que se dejaron de realizar mediciones para los tamaños de arreglos correspondientes. Esta omisión se debió a la demora significativa en la ejecución de los algoritmos para conjuntos de datos más extensos, lo que podría haber impactado negativamente en el tiempo total del análisis y la salud del sistema.
+</p>
+
+<p align="justify">
+Al evaluar los resultados, se evidencia que Quicksort y Merge sort exhiben desviaciones estándar relativamente bajas en todos los tamaños de datos, indicando una consistencia y previsibilidad en sus tiempos de ejecución. En contraste, algoritmos como Insertion sort y Selection sort, aunque pueden mostrar desviaciones estándar más bajas para conjuntos pequeños, tienden a volverse más variables a medida que crece el tamaño de los datos, revelando una dependencia significativa del tamaño específico del conjunto. Por otro lado, Bubble sort, siendo generalmente ineficiente en términos de tiempo de ejecución, presenta desviaciones estándar más altas en comparación con Quicksort y Merge sort, lo que sugiere una mayor variabilidad en los tiempos de ejecución y afecta negativamente la previsibilidad del rendimiento.
+Por último, Merge sort exhibe una desviación estándar relativamente estable a medida que el tamaño del arreglo aumenta, sugiriendo mayor previsibilidad y consistencia en términos de tiempo de ejecución. En resumen, los resultados apuntan a que Merge sort tiende a ser más constante y predecible, especialmente a medida que el tamaño del arreglo crece, mientras que Quicksort, aunque puede mostrar variabilidad en casos específicos, sigue siendo eficiente para arreglos pequeños y medianos.
+</p>
 
 # ANÁLISIS DE RESULTADOS
 <p align="justify">
