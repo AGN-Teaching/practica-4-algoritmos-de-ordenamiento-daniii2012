@@ -133,6 +133,7 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
   <li>bubblesort: Ordena un arreglo usando el algoritmo Bubblesort.</li>
   <li>insertion_sort: Ordena un arreglo usando el algoritmo Insertion Sort.</li>
   <li>selection_sort: Ordena un arreglo usando el algoritmo Selection Sort.</li>
+  
 ![ALGO](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/50af8caf-670b-4bcb-9dbf-811c4eab5381)
 
 </ol>
