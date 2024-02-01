@@ -127,10 +127,14 @@ En resumen, el código orden.cpp proporciona una plataforma para comparar y eval
 # DESCRIPCIÓN DE LAS FUNCIONES DE ORDENAMIENTO
 <ol>
   <li>merge_sort: Ordena un arreglo usando el algoritmo Merge Sort de manera recursiva.</li>
+  
+![M](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/aba52cfc-cee6-495d-adfb-3a8c9a75c2f8)
   <li>quicksort: Ordena un arreglo usando el algoritmo Quicksort de manera recursiva.</li>
   <li>bubblesort: Ordena un arreglo usando el algoritmo Bubblesort.</li>
   <li>insertion_sort: Ordena un arreglo usando el algoritmo Insertion Sort.</li>
   <li>selection_sort: Ordena un arreglo usando el algoritmo Selection Sort.</li>
+![ALGO](https://github.com/AGN-Teaching/practica-4-algoritmos-de-ordenamiento-daniii2012/assets/125592302/50af8caf-670b-4bcb-9dbf-811c4eab5381)
+
 </ol>
 
 
@@ -199,15 +203,15 @@ Por último, Merge sort exhibe una desviación estándar relativamente estable a
 
 # ANÁLISIS DE RESULTADOS
 <p align="justify">
-
+Luego de completar minuciosamente la fase de recopilación de datos, el análisis pormenorizado y la representación gráfica en la práctica de algoritmos de ordenamiento, emerge una conclusión reveladora que revela un patrón distintivo en el rendimiento de los cinco algoritmos examinados. Bubble sort, de manera consistente, muestra el tiempo de ejecución más prolongado, seguido de cerca por Insertion sort y Selection sort, independientemente del tamaño del conjunto de datos. En un contraste evidente, tanto Merge sort como Quicksort destacan como los más eficientes, exhibiendo tiempos de ejecución considerablemente más bajos.
 </p>
 
 <p align="justify">
-
+Este patrón identificado en los resultados sugiere que, de manera similar, en escenarios no evaluados por cuestiones de salud del sistema y limitaciones de tiempo, estos algoritmos seguirían manteniendo sus características distintivas. Específicamente, Merge sort y Quicksort continuarían siendo opciones preferibles para conjuntos de datos considerables, mientras que Bubble sort, Insertion sort y Selection sort demostrarían ser más adecuados para conjuntos más pequeños, donde la eficiencia es menos crítica y la simplicidad puede superar sus limitaciones.
 </p>
 
 <p align="justify">
-
+Este análisis general enfatiza que la elección del algoritmo de ordenamiento trasciende aspectos técnicos y tiene un impacto sustancial en el rendimiento global del sistema. Subraya la importancia estratégica de considerar las características y requisitos específicos de la aplicación al seleccionar un algoritmo de ordenamiento. La observación de este patrón también sugiere que, extrapolando hacia otros conjuntos de datos no evaluados, se podría esperar un rendimiento coherente y predecible de estos algoritmos en sus respectivos rangos de eficiencia.
 </p>
 
 
